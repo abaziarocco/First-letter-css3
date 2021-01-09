@@ -1,0 +1,65 @@
+<html>
+
+ <head>
+   
+   <style>
+   
+   *{
+  margin:0;
+  padding:0;
+  box-sizing:box-border;
+}
+
+body{
+  background:#a6e3c4;
+}
+
+.box{
+  width:200px;
+  height:auto;
+  background:#ffffff;
+  margin-top:10%;
+   margin-bottom:20%;
+  margin-right:auto;
+  margin-left:auto;
+  border:1px solid black;
+   
+}
+
+p{
+  padding:20px;
+ text-align:justify;
+  font-family:Roboto;
+}
+
+p::first-line{
+  font-weight:bold;
+  margin-left:-15px;
+  margin-right:20px;
+  
+}
+p::first-letter{
+  margin-top:-12px;
+  margin-right:4px;
+  font-size:72px;
+  float:left;
+}
+   
+   
+   </style>
+   
+  </head>
+  
+  <body>
+  
+    <div class="box">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. 
+      </p>
+    
+    </div>
+    
+  </body>
+  
+  
+  
+</html>
